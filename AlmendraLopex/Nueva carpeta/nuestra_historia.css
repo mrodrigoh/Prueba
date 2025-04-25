@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@100..900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* NAVBAR */
+.menu-navegacion {
+  background-color: #e4002b;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lista li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu-lista a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.menu-lista a:hover {
+  background-color: #f7bc00;
+  color: #e4002b;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contenedor-historia {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card-historia {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 5px 15px black;
+}
+
+.fundador-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #e50914;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.nombre {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 32px;
+  color: #e50914;
+  margin: 0;
+}
+
+.titulo {
+  font-weight: bold;
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+.card-historia p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+  /* WHATSAPP */
+  .btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #25D366;
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-whatsapp:hover {
+    transform: scale(1.1);
+  }

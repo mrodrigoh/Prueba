@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@100..900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* NAVBAR */
+.menu-navegacion {
+  background-color: #e4002b;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lista li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu-lista a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.menu-lista a:hover {
+  background-color: #f7bc00;
+  color: #e4002b;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.formulario-login {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.formulario-login h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #e50914;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.formulario-login label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.formulario-login input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario-login button {
+    width: 100%;
+    background-color: #e50914;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-login .acciones {
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-login .acciones a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+/* WHATSAPP */
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #25D366;
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+  }
